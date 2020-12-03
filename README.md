@@ -1,1 +1,1 @@
-# gatsby-reveal
+# Use reveal.JS
