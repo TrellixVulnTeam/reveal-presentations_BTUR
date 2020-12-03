@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "npx http-server",
+    "compile:sass": "node-sass src/main.scss src/style.css",
+    "wacth:sass": "node-sass src/main.scss src/style.css -w",
+    "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,7 @@
     "reveal.js": "^4.1.0"
   },
   "devDependencies": {
-    "htmllint": "^0.8.0"
+    "htmllint": "^0.8.0",
+    "node-sass": "^5.0.0"
   }
 }
