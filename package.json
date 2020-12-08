@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass src/main.scss src/style.css",
-    "wacth:sass": "node-sass src/main.scss src/style.css -w",
+    "compile:sass": "node-sass docs/main.scss docs/style.css",
+    "wacth:sass": "node-sass docs/main.scss docs/style.css -w",
     "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
