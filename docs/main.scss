@@ -4,15 +4,23 @@
   background-color: #F2F2F2;
 }
 
-section {
-  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Yu Gothic','YuGothic','メイリオ', Meiryo;
-  color: #222;
-  font-size: 30px;
-}
-
 .reveal {
   .slides {
     text-align: left;
+
+    .text-center {
+      text-align: center !important;
+    }
+
+    section {
+      font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Yu Gothic','YuGothic','メイリオ', Meiryo;
+      color: #222;
+      font-size: 30px;
+
+      &.top-0 {
+        top: 0 !important;
+      }
+    }
 
     h1 {
       text-align: center;
@@ -77,6 +85,14 @@ section {
       font-size: 20px;
       p {
         margin: 0;
+      }
+    }
+
+    img {
+      &.af-img-002 {
+        position: absolute;
+        right: 0;
+        top: 260px;
       }
     }
   }
